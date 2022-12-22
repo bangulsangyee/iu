@@ -9,7 +9,11 @@ public class LobbyManeger : MonoBehaviour
     {
         SceneManager.LoadScene("Main");
     }
-   
+
+    public void LoadLobbySence()
+    {
+        SceneManager.LoadScene("Lobby");
+    }
 
 
 
